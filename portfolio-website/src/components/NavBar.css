@@ -28,6 +28,10 @@
     display: flex;
     align-items: center;
   }
+
+  .navbar-logo-text {
+    margin-left: 5px;
+  }
   
   .fa-adjust {
     margin-left: 0.5rem;

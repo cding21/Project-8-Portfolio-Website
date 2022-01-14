@@ -3,7 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 
-function NavBar() {
+export default function NavBar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -30,7 +30,7 @@ function NavBar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             <i class='fas fa-adjust' />
-            <div class='logo'>C.DING</div> 
+            <div className='navbar-logo-text'>C.DING</div> 
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -75,5 +75,3 @@ function NavBar() {
     </>
   );
 }
-
-export default NavBar;
