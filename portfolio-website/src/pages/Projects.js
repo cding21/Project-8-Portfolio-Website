@@ -1,11 +1,9 @@
 import React from 'react';
 
-function Project() {
+export default function Project() {
   return (
     <div className='projects'>
       <h1>Project</h1>
     </div>
   );
 }
-
-export default Project;
