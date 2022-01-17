@@ -38,7 +38,7 @@ export default function NavBar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                <p>Home</p>
               </Link>
             </li>
             <li className='nav-item'>
@@ -47,16 +47,16 @@ export default function NavBar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                About
+                <p>About</p>
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/projects'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Projects
+                <p>Projects</p>
               </Link>
             </li>
             <li>

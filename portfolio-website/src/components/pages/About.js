@@ -1,9 +1,8 @@
 import React from 'react';
+import '../../App.css';
 
 export default function About() {
   return (
-    <div className='about'>
-      <h1>About</h1>
-    </div>
+    <h1 className='about'>About</h1>
   );
 }
