@@ -1,2 +1,2 @@
 # Portfolio Website
- Personal website to showcase personal projects and achievements
+ Personal website based in React.js to showcase personal projects and achievements.
